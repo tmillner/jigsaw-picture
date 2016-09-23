@@ -1,18 +1,21 @@
 package com.flyhigh.tmillner.jigsawpicture.engine;
 
+/*
 import javax.imageio.ImageIO;
 
 import java.awt.image.BufferedImage;
 import java.io.*;
 import java.awt.*;
+*/
 
 /**
  * Created by macbookpro on 9/15/16.
  */
 public class SplitImage {
+    /*
     public static void main(String[] args) throws IOException {
 
-        File file = new File("google-hummingbird.jpg");
+        File file = new File("googlebird.jpg");
         FileInputStream fis = new FileInputStream(file);
         BufferedImage image = ImageIO.read(fis);
 
@@ -41,4 +44,5 @@ public class SplitImage {
             ImageIO.write(imgs[i], "jpg", new File("img" + i + ".jpg"));
         }
     }
+    */
 }
